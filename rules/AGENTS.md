@@ -23,3 +23,19 @@ These rules apply across all Antigravity surfaces (Antigravity 2.0 Desktop, IDE,
 ## 3. Code Blocks and Commands
 - Code blocks (```rust, ```bash, etc.) must NEVER be RTL.
 - Always keep code blocks formatted strictly Left-to-Right (LTR).
+
+## 4. File Generation & Code Comments in Arabic
+- **Encoding**: Always generate and save files containing Arabic using standard UTF-8 (without BOM) to prevent mojibake/character corruption.
+- **Markdown & Documentation Files (`.md`, `.txt`, `.html`)**:
+  - Always wrap Arabic sections with `<div dir="rtl" align="right">` so they render properly in Markdown viewers, GitHub, and browser previews.
+- **Source Code Files (`.rs`, `.py`, `.js`, etc.)**:
+  - Keep source code logic and identifiers strictly LTR English.
+  - When writing Arabic comments, place them on dedicated comment lines (e.g., `// تعليق: دالة تشغيل السيرفر`) so they never disrupt indentation or syntax.
+  - Never manually reverse Arabic text inside strings or comments; rely on native Unicode characters.
+
+## 5. Dialect & Context Comprehension
+- Understand both Modern Standard Arabic (فصحى) and colloquial dialects seamlessly, especially Tunisian Arabic and Arabizi (North African chat alphabet with numerals like 3, 7, 9, 5).
+- Accurately grasp technical slang and mixed French/English terms (e.g. `cash`, `cont`, `mrigla`, `famech`, `behi`).
+- **Surface Awareness**:
+  - In GUI apps & Markdown files: Output pristine RTL Arabic script.
+  - In CLI / Terminal streams: Prefer Tunisian Arabizi or Latin script so the terminal cannot display broken/reversed characters.
