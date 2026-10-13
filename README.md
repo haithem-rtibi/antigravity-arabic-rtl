@@ -1,16 +1,23 @@
 # 🌐 Antigravity Arabic RTL & BiDi Assistant Plugin
 
-> **Official plugin for Google Antigravity (CLI, IDE, and Antigravity 2.0)** to provide native Right-to-Left (RTL) Arabic alignment, bidirectional text isolation (BiDi), and terminal readability.
+> **Official plugin for Google Antigravity (CLI, IDE, and Antigravity 2.0)** to provide native Right-to-Left (RTL) Arabic alignment, bidirectional text isolation (BiDi), and clean documentation outputs.
 
 ---
 
 ## 📖 نظرة عامة (Overview)
 
-هذه الإضافة (Plugin) مخصصة لمنصة **Google Antigravity** لمعالجة كافة مشاكل اللغة العربية في المحادثات والأكواد:
-1. **محاذاة كاملة من اليمين لليسار (RTL):** ترتيب طبيعي للنصوص وعلامات الترقيم (النقاط والاستفهام في آخر الجملة على اليسار).
-2. **عزل الكلمات الأجنبية والأكواد (BiDi Isolation):** دمج الكلمات الإنجليزية والفرنسية وأسماء المتغيرات والأوامر التقنية (`Rust`, `cargo`, `link.exe`) داخل الجملة العربية دون أن تنعكس أو تتداخل الكلمات.
-3. **حماية التيرمينال (Terminal Readability):** منع ظهور الحروف العربية المعكوسة أو المقطعة في شاشات الـ CLI.
-4. **دعم التونسي بالـ Arabizi:** إمكانية الترجمة والتحويل السلس.
+هذه الإضافة (Plugin) مخصصة لمنصة **Google Antigravity** لضبط وتنسيق اللغة العربية في المحادثات، الملفات، والمخرجات التقنية:
+
+1. **محاذاة كاملة من اليمين لليسار (RTL في الملفات والـ UI):**
+   * في **Antigravity 2.0** و **IDE**: تظهر النصوص العربية في المحادثة منسقة طبيعياً من اليمين لليسار.
+   * في **ملفات الـ Markdown (`.md`) والـ Artifacts والـ PDF**: يتم توليد كود الـ Markdown مغلّفاً بوسوم الـ RTL (`dir="rtl"`) ليكون التقرير جاهزاً للقراءة والطباعة بأعلى جودة.
+2. **عزل الكلمات الأجنبية والأكواد (BiDi Isolation):**
+   * عزل المصطلحات التقنية والأكواد (`Rust`, `cargo`, `link.exe`, etc.) داخل الجمل العربية دون تداخل أو انقلاب الكلمات.
+3. **توضيح هام بخصوص الـ CLI (Terminal):**
+   * شاشات الـ Terminal في أنظمة التشغيل (PowerShell, CMD, Bash) لا تدعم محرك ربط الحروف العربية (BiDi Shaping)، لذلك لا يمكن إظهار الحروف العربية متصلة داخل نافذة الـ Terminal نفسها.
+   * **حل الإضافة للـ CLI:** 
+     1. يتواصل معك الـ CLI بالـ **Arabizi التونسي** أو الإنجليزية لتفادي الحروف المعكوسة في شاشة التيرمينال.
+     2. عند طلب كتابة مقال أو كود أو تقرير، يقوم الـ CLI بتوليد **ملف خارجي (`.md` أو `.pdf` أو Artifact)** منسق 100% بنظام الـ RTL لتفتحه في المتصفح أو المحرر بشكل مثالي.
 
 ---
 
