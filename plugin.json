@@ -1,7 +1,7 @@
 {
   "name": "arabic-rtl",
   "displayName": "Arabic RTL & Arabizi Assistant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Optimizes Arabic conversations with proper RTL formatting, terminal BiDi readability, and Arabizi support.",
   "logo": "assets/logo.jpg",
   "suggestedPrompts": [
