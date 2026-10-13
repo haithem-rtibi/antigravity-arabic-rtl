@@ -4,7 +4,23 @@
   <img src="assets/logo.jpg" alt="Antigravity Arabic RTL Logo" width="160" style="border-radius: 24px;" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/haithem-rtibi/antigravity-arabic-rtl"><img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github&style=flat-square" alt="GitHub Repo"></a>
+  <a href="https://github.com/haithem-rtibi/antigravity-arabic-rtl/stargazers"><img src="https://img.shields.io/github/stars/haithem-rtibi/antigravity-arabic-rtl?style=flat-square&color=gold" alt="GitHub Stars"></a>
+  <a href="https://github.com/haithem-rtibi/antigravity-arabic-rtl/issues"><img src="https://img.shields.io/github/issues/haithem-rtibi/antigravity-arabic-rtl?style=flat-square&color=brightgreen" alt="GitHub Issues"></a>
+  <a href="https://github.com/haithem-rtibi/antigravity-arabic-rtl/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT"></a>
+</p>
+
 > **Official plugin for Google Antigravity (CLI, IDE, and Antigravity 2.0)** to provide native Right-to-Left (RTL) Arabic alignment, bidirectional text isolation (BiDi), and clean documentation outputs.
+
+---
+
+## 🔗 روابط هامة (Quick Links)
+
+* 📦 **المستودع الرسمي (Source Code):** [https://github.com/haithem-rtibi/antigravity-arabic-rtl](https://github.com/haithem-rtibi/antigravity-arabic-rtl)
+* ⭐ **ادعم المشروع بنجمة (Give a Star):** إذا ساعدتك الإضافة، اضغط على زر Star في أعلى صفحة GitHub تشجيعاً للمشروع!
+* 🐛 **الإبلاغ عن المشاكل (Report Issues):** [https://github.com/haithem-rtibi/antigravity-arabic-rtl/issues](https://github.com/haithem-rtibi/antigravity-arabic-rtl/issues)
+* 💡 **اقتراح ميزات جديدة (Feature Requests):** بإمكانك فتح Issue جديدة لاقتراح أي تحسينات في التنسيق أو اللهجات.
 
 ---
 
