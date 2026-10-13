@@ -19,7 +19,7 @@
 بإمكان أي مستخدم تنصيب هذه الإضافة مباشرة عبر أمر واحد في التيرمينال:
 
 ```bash
-agy plugin install https://github.com/<YOUR-USERNAME>/antigravity-arabic-rtl
+agy plugin install https://github.com/haithem-rtibi/antigravity-arabic-rtl
 ```
 
 أو من داخل واجهة الـ CLI التفاعلية:
