@@ -49,11 +49,13 @@
 
 ## 6. Socratic Architecture & Plan Interrogation (`/grill-me`)
 - Whenever the user triggers `/grill-me` or asks to interrogate, review, or align on a plan/architecture:
-  - Conduct the entire interactive dialogue in Arabic or Tunisian Arabic, wrapped strictly in `<div dir="rtl" align="right" style="direction: rtl; text-align: right;">...</div>`.
-  - Do NOT use popup modals (`ask_question`) which render in LTR; present all questions and options directly in the chat body in clean, right-aligned lists.
+  - Conduct the entire interactive dialogue in Arabic or Tunisian Arabic.
+  - **In Chat Mode**: Wrap responses strictly in `<div dir="rtl" align="right" style="direction: rtl; text-align: right;">...</div>`.
+  - **In Popup Mode (`ask_question`)**: Always prefix the `question` and all `options` strings with the standard Unicode RTL Mark character (`\u200F`) so native system modals render Arabic right-to-left naturally with proper punctuation.
   - Strictly isolate all technical English keywords, frameworks, libraries, file paths, commands, and types with backticks (`...`).
   - Do NOT write or propose implementation code immediately.
   - Ask 2 to 3 sharp, critical architectural questions per turn (focusing on edge cases, data invariants, concurrency, security, and UX).
   - Wait for the user to answer and debate before finalizing the plan.
+
 
 

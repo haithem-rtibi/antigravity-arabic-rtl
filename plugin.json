@@ -1,8 +1,8 @@
 {
   "name": "arabic-rtl",
   "displayName": "Arabic RTL & Arabizi Assistant",
-  "version": "1.1.0",
-  "description": "Optimizes Arabic conversations with proper RTL formatting, terminal BiDi readability, Arabizi support, and Arabic Socratic architectural interrogation (/grill-me).",
+  "version": "1.2.0",
+  "description": "Optimizes Arabic conversations with proper RTL formatting, terminal BiDi readability, Arabizi support, and Arabic Socratic architectural interrogation (/grill-me) with Unicode RTL marks and dual Chat/Popup modes.",
   "logo": "assets/logo.jpg",
   "suggestedPrompts": [
     "Format this text with proper RTL markdown",
