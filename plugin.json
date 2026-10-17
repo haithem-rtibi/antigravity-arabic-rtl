@@ -1,13 +1,12 @@
 {
   "name": "arabic-rtl",
   "displayName": "Arabic RTL & Arabizi Assistant",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Optimizes Arabic conversations with proper RTL formatting, terminal BiDi readability, Arabizi support, and Socratic architectural interrogation (/grill-me) directly in chat.",
-  "logo": "https://raw.githubusercontent.com/haithem-rtibi/antigravity-arabic-rtl/main/assets/logo.png",
+  "logo": "assets/logo.png",
   "suggestedPrompts": [
+    "Review and stress-test architecture with /grill-me in Arabic",
     "Format this text with proper RTL markdown",
-    "Translate this explanation into clear Tunisian Arabizi",
-    "Fix reversed Arabic text in my terminal",
-    "Review and stress-test architecture with /grill-me in Arabic"
+    "Translate this explanation into clear Tunisian Arabizi"
   ]
 }
