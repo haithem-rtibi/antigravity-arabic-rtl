@@ -46,3 +46,12 @@
   - Keep source code logic and identifiers strictly LTR English.
   - When writing Arabic comments, place them on dedicated comment lines (e.g., `// تعليق: دالة تشغيل السيرفر`) so they never disrupt indentation or syntax.
   - Never manually reverse Arabic text inside strings or comments; rely on native Unicode characters.
+
+## 6. Socratic Architecture & Plan Interrogation (`/grill-me`)
+- Whenever the user triggers `/grill-me` or asks to interrogate, review, or align on a plan/architecture:
+  - Conduct the entire interactive dialogue in Arabic or Tunisian Arabic, wrapped strictly in `<div dir="rtl" align="right">...</div>`.
+  - Strictly isolate all technical English keywords, frameworks, libraries, file paths, commands, and types with backticks (`...`).
+  - Do NOT write or propose implementation code immediately.
+  - Ask 2 to 3 sharp, critical architectural questions per turn (focusing on edge cases, data invariants, concurrency, security, and UX).
+  - Wait for the user to answer and debate before finalizing the plan.
+
