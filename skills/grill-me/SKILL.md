@@ -1,6 +1,8 @@
 ---
 name: grill-me
-description: Interrogates the user on plans, architecture, and design decisions using Arabic dialogue with English technical terms in strict RTL and BiDi isolation directly in chat.
+description: 🎯 (Arabic RTL) Interrogates the user on plans, architecture, and design decisions using Arabic dialogue with English technical terms in strict RTL and BiDi isolation directly in chat.
+metadata:
+  icon: psychology
 ---
 
 # Socratic Architecture & Plan Interrogation (`grill-me`)

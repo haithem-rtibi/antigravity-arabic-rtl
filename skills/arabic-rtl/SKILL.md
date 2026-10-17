@@ -1,6 +1,8 @@
 ---
 name: arabic-rtl
-description: Formats, re-aligns, and handles Arabic text directionality (RTL/LTR), bidirectional text issues, and Tunisian Arabizi transliteration in conversations and documents.
+description: 🌐 (Arabic RTL) Formats, re-aligns, and handles Arabic text directionality (RTL/LTR), bidirectional text issues, and Tunisian Arabizi transliteration in conversations and documents.
+metadata:
+  icon: translate
 ---
 
 # Arabic RTL & Arabizi Helper Skill
