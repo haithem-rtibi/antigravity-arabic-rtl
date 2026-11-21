@@ -1,12 +1,32 @@
 {
   "name": "arabic-rtl",
   "displayName": "Arabic RTL & Arabizi Assistant",
-  "version": "1.2.5",
-  "description": "Optimizes Arabic conversations with proper RTL formatting, terminal BiDi readability, Arabizi support, and Socratic architectural interrogation (/grill-me) directly in chat.",
+  "version": "1.3.0",
+  "description": "Optimizes Arabic conversations with proper RTL formatting, terminal BiDi readability, Arabizi support, contextual inline translation (/tarjem), and Socratic architectural interrogation (/grill-me) directly in chat.",
+  "author": {
+    "name": "Haithem Rtibi",
+    "url": "https://github.com/haithem-rtibi"
+  },
+  "homepage": "https://github.com/haithem-rtibi/antigravity-arabic-rtl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haithem-rtibi/antigravity-arabic-rtl.git"
+  },
+  "keywords": [
+    "arabic",
+    "rtl",
+    "bidi",
+    "arabizi",
+    "tunisian",
+    "grill-me",
+    "tarjem",
+    "translation",
+    "antigravity-plugin"
+  ],
   "logo": "assets/logo.png",
   "suggestedPrompts": [
     "Review and stress-test architecture with /grill-me in Arabic",
     "Format this text with proper RTL markdown",
-    "Translate this explanation into clear Tunisian Arabizi"
+    "Translate selected code or text with /tarjem"
   ]
 }
