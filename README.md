@@ -1,9 +1,5 @@
 # 🌐 Antigravity Arabic RTL & BiDi Assistant Plugin
 
-![Version](https://img.shields.io/badge/version-v1.3.0-emerald.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Platform](https://img.shields.io/badge/platform-Google%20Antigravity-orange.svg)
-
 > **Official plugin for Google Antigravity (CLI, IDE, and Antigravity 2.0)** to provide native Right-to-Left (RTL) Arabic alignment, bidirectional text isolation (BiDi), contextual code translation, and clean documentation outputs.
 
 ---
