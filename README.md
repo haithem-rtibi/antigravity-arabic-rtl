@@ -1,6 +1,20 @@
 # 🌐 Antigravity Arabic RTL & BiDi Assistant Plugin
 
-> **Official plugin for Google Antigravity (CLI, IDE, and Antigravity 2.0)** to provide native Right-to-Left (RTL) Arabic alignment, bidirectional text isolation (BiDi), and clean documentation outputs.
+![Version](https://img.shields.io/badge/version-v1.3.0-emerald.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Google%20Antigravity-orange.svg)
+
+> **Official plugin for Google Antigravity (CLI, IDE, and Antigravity 2.0)** to provide native Right-to-Left (RTL) Arabic alignment, bidirectional text isolation (BiDi), contextual code translation, and clean documentation outputs.
+
+---
+
+## ⚡ المهارات والأوامر المتاحة (Skills & Commands)
+
+| الأمر / المهارة | الوصف | طريقة الاستخدام |
+| :--- | :--- | :--- |
+| **`/grill-me`** | استجواب معماري وهندسي سقراطي باللغة العربية مع عزل تام للمصطلحات التقنية. | اكتب `/grill-me` في الشات لمناقشة الخطة الهندسية قبل كتابة الكود. |
+| **`/tarjem`** | ترجمة فورية وسياقية للأكواد والمصطلحات للفصحى أو الدارجة التونسية (`Arabizi`). | حدد النص في المحرر واضغط <kbd>Ctrl</kbd>+<kbd>I</kbd> ثم اكتب `/tarjem`. |
+| **`/arabic-rtl`** | إعادة ضبط اتجاه النصوص، تصحيح الحروف المعكوسة من الـ Terminal، والتحويل بين المعرب والعربية. | اكتب `/arabic-rtl` أو اطلب تنسيق أي نص عربي. |
 
 ---
 
@@ -103,18 +117,22 @@ agy plugin install https://github.com/haithem-rtibi/antigravity-arabic-rtl
 
 ```text
 antigravity-arabic-rtl/
-├── plugin.json                # معرّف الإضافة وإعداداتها (v1.2.1)
-├── README.md                  # دليل الاستخدام والتنصيب
+├── plugin.json                # معرّف الإضافة وإعداداتها الرسمية (v1.3.0)
+├── README.md                  # دليل الاستخدام والتنصيب الشامل
+├── CHANGELOG.md               # سجل الإصدارات والتحديثات التاريخية
 ├── LICENSE                    # رخصة مفتوحة المصدر (MIT)
 ├── assets/
-│   └── logo.jpg               # شعار الإضافة الرسمي
+│   ├── logo.png               # شعار الإضافة الرسمي المعتمد (1024x1024)
+│   └── banner.jpg             # غلاف المعاينة على GitHub
 ├── rules/
-│   └── AGENTS.md              # قواعد التوجيه التلقائي والاستجواب المعماري
+│   └── AGENTS.md              # القواعد الشاملة: RTL, BiDi, KaTeX, Swarms, Artifacts
 └── skills/
     ├── arabic-rtl/
     │   └── SKILL.md           # مهارة معالجة وتنسيق النصوص (/arabic-rtl)
-    └── grill-me/
-        └── SKILL.md           # مهارة الاستجواب المعماري باللغة العربية (/grill-me)
+    ├── grill-me/
+    │   └── SKILL.md           # مهارة الاستجواب المعماري باللغة العربية (/grill-me)
+    └── tarjem/
+        └── SKILL.md           # مهارة الترجمة الفورية للأكواد والمحرر (/tarjem)
 ```
 
 ---
